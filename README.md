@@ -22,4 +22,7 @@ Each node object has key, value associated with it, and instead of just one link
 
 While inserting, we keep a track of nodes visited on each level before moving one level down. The height(or levels) in which the node to be inserted in determined randomly, and is inserted upto the height. Here's where we use the nodes we stored level wise while moving down. As we add the node up from level 0, we check the previous node at each level from stored nodes to determine where it has to be inserted on each level.
 
+**Test.py** is interactive implementation starting from empty SkipList, and lets user enter their choice to either insert, delete, find, find closest key after, and display.
+**PerformanceAnalyzer.py** analyses performance for different input sizes to check if the complexity remains almost same for any input size.
+
 Hope you like the implementation!
