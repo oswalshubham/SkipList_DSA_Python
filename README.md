@@ -10,6 +10,7 @@ Time to insert as well as remove is reduced to **O(logn)** from **O(n)**.
 
 And how is this achieved in SkipList:
 We can have multiple layers which act as expressways. Each layer contains few nodes, which can be at any position in LinkedList.
+
 ![image](https://user-images.githubusercontent.com/95557338/165607270-835ed3d1-97e1-4a03-83a4-c159ad529601.png)
 
 It works as binary search for multiple levels, and hence O(logn) complexity can be achieved.
